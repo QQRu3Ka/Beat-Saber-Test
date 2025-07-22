@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MoveCube : MonoBehaviour
 {
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private Transform direction;
     void Update()
     {
-        transform.Translate(new Vector3(0,0,-10) * Time.deltaTime);
+        transform.Translate(direction.forward * (moveSpeed * Time.deltaTime));
     }
 }
