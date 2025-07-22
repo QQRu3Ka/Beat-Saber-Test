@@ -1,75 +1,47 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 
 public class WallCollisionCheck : MonoBehaviour
 {
+    const string CAM_TAG = "MainCamera";
     public IBreak cube;
     public ISlice slice;
-    public Transform cam;
+    public GameObject cam;
+    public Side side;
 
     private void Awake()
     {
         cube = GetComponent<BreakCube>();
         slice = GetComponent<KeyboardSlice>();
+        cam = GameObject.FindGameObjectWithTag(CAM_TAG);
+        if (transform.rotation.eulerAngles.z == 0) side = Side.Up;
+        if (transform.rotation.eulerAngles.z == 90) side = Side.Right;
+        if (transform.rotation.eulerAngles.z == 180) side = Side.Down;
+        if (transform.rotation.eulerAngles.z == 270) side = Side.Left;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        Side s = Side.None;
+        Debug.Log(side.ToString());
         if (!other.CompareTag("Wall")) return;
         if (gameObject.CompareTag("RedCube"))
         {
-            RedSliceCheck();
+            s = slice.SliceRed();
         }
         
         if (gameObject.CompareTag("BlueCube"))
         {
-            BlueSliceCheck();
+            s = slice.SliceBlue();
         }
-    }
-    
-    private void RedSliceCheck()
-    {
-        Side s = slice.SliceRed();
-        if (gameObject.transform.rotation.eulerAngles.z == 0 && s == Side.Up)
+        
+        if (s == side)
         {
-            cube.Break(Side.Up);
+            cube.Break(side);
+            cam.GetComponent<GameStats>().ChangePoint(1);
         }
-        if (gameObject.transform.rotation.eulerAngles.z == 90 && s == Side.Right)
-        {
-            cube.Break(Side.Right);
-        }
-        if (gameObject.transform.rotation.eulerAngles.z == 180 && s == Side.Down)
-        {
-            cube.Break(Side.Down);
-        }
-        if (gameObject.transform.rotation.eulerAngles.z == 270 && s == Side.Left)
-        {
-            cube.Break(Side.Left);
-        }
-    }
-    
-    private void BlueSliceCheck()
-    {
-        Side s = slice.SliceBlue();
-        if (gameObject.transform.rotation.eulerAngles.z == 0 && s == Side.Up)
-        {
-            cube.Break(Side.Up);
-        }
-        if (gameObject.transform.rotation.eulerAngles.z == 90 && s == Side.Right)
-        {
-            cube.Break(Side.Right);
-        }
-        if (gameObject.transform.rotation.eulerAngles.z == 180 && s == Side.Down)
-        {
-            cube.Break(Side.Down);
-        }
-        if (gameObject.transform.rotation.eulerAngles.z == 270 && s == Side.Left)
-        {
-            cube.Break(Side.Left);
-        }
+        else cam.GetComponent<GameStats>().ChangePoint(-1);
     }
 }

@@ -1,12 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 
 public class GameStats : MonoBehaviour
 {
-    private int _score = 0;
+    [SerializeField] private int _score = 0;
     
     public delegate void SliceHandler();
     public event SliceHandler OnSlice;

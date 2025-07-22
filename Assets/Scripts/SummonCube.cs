@@ -38,7 +38,7 @@ public class SummonCube : MonoBehaviour
             int materialRng = Random.Range(0, 2);
             _meshRenderer.material = materials[materialRng];
             cube.tag = _tags[materialRng];
-            Instantiate(cube, new Vector3(_sides[Random.Range(0, _sides.Count)], 0, 20),
+            GameObject cub = Instantiate(cube, new Vector3(_sides[Random.Range(0, _sides.Count)], 0, 20),
                 Quaternion.Euler(0, 180, Random.Range(0, 4) * 90));
         }
     }
