@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class WallCollisionCheck : MonoBehaviour
 {
-    const string CAM_TAG = "MainCamera";
-    public IBreak cube;
-    public ISlice slice;
+    const string CamTag = "MainCamera";
+    private IBreak _cube;
+    private ISlice _slice;
     public GameObject cam;
     public Side side;
 
     private void Awake()
     {
-        cube = GetComponent<BreakCube>();
-        slice = GetComponent<KeyboardSlice>();
-        cam = GameObject.FindGameObjectWithTag(CAM_TAG);
+        _cube = GetComponent<BreakCube>();
+        _slice = GetComponent<KeyboardSlice>();
+        cam = GameObject.FindGameObjectWithTag(CamTag);
         if (transform.rotation.eulerAngles.z == 0) side = Side.Up;
         if (transform.rotation.eulerAngles.z == 90) side = Side.Right;
         if (transform.rotation.eulerAngles.z == 180) side = Side.Down;
@@ -29,17 +29,17 @@ public class WallCollisionCheck : MonoBehaviour
         if (!other.CompareTag("Wall")) return;
         if (gameObject.CompareTag("RedCube"))
         {
-            s = slice.SliceRed();
+            s = _slice.SliceRed();
         }
         
         if (gameObject.CompareTag("BlueCube"))
         {
-            s = slice.SliceBlue();
+            s = _slice.SliceBlue();
         }
         
         if (s == side)
         {
-            cube.Break(side);
+            _cube.Break(side);
             cam.GetComponent<GameStats>().ChangePoint(1);
         }
         else cam.GetComponent<GameStats>().ChangePoint(-1);
