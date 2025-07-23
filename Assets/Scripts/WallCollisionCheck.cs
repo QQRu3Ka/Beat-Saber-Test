@@ -26,12 +26,13 @@ public class WallCollisionCheck : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Side s = Side.None;
         if (!other.CompareTag("Wall")) return;
+        Side s = Side.None;
+        Debug.Log("Столкновение со стеной");
         if (gameObject.CompareTag("RedCube"))
         {
             s = _slice.SliceRed();
-            //Debug.Log(s.ToString());
+            
         }
         
         if (gameObject.CompareTag("BlueCube"))
@@ -39,8 +40,12 @@ public class WallCollisionCheck : MonoBehaviour
             s = _slice.SliceBlue();
         }
 
-        if (s!=Side.None) MoveCube.isMoving = false;
-        _cube.Break(s);
+        if (s != Side.None)
+        {
+            MoveCube.isMoving = false;
+            _cube.Break(s);
+        }
+        
 
         if (s == side)
         {

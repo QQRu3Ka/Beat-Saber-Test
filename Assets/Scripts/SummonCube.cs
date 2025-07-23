@@ -7,17 +7,22 @@ using Rng = System.Random;
 
 public class SummonCube : MonoBehaviour
 {
+    private string leftPartName = "LeftPart";
+    private string rightPartName = "RightPart";
     [SerializeField] private GameObject cube;
     [SerializeField] private List<Material> materials;
     private List<string> _tags;
-    private MeshRenderer _meshRenderer;
+    private MeshRenderer _meshRendererLeft;
+    private MeshRenderer _meshRendererRight;
+    
     private List<int> _sides;
     [SerializeField] private Side side;
 
     void Awake()
     {
         _sides = new List<int>() {-1, 1};
-        _meshRenderer = cube.GetComponent<MeshRenderer>();
+        _meshRendererLeft = cube.transform.Find(leftPartName).gameObject.GetComponent<MeshRenderer>();
+        _meshRendererRight = cube.transform.Find(rightPartName).gameObject.GetComponent<MeshRenderer>();
         _tags = new List<string>() {"RedCube", "BlueCube"};
         
         Array values = Enum.GetValues(typeof(Side));
@@ -36,10 +41,11 @@ public class SummonCube : MonoBehaviour
         if (summonRng == 3)
         {
             int materialRng = Random.Range(0, 2);
-            _meshRenderer.material = materials[materialRng];
+            _meshRendererLeft.material = materials[materialRng];
+            _meshRendererRight.material = materials[materialRng];
             cube.tag = _tags[materialRng];
             GameObject cub = Instantiate(cube, new Vector3(_sides[Random.Range(0, _sides.Count)], 0, 20),
-                Quaternion.Euler(0, 180, Random.Range(0, 4) * 90));
+                Quaternion.Euler(0, 0, Random.Range(0, 4) * 90));
         }
     }
 }
