@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 5306994596014404371}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: BlueCube
+  m_TagString: RedCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 00c9f42498a9bf046b5cd00cc315f2a6, type: 2}
+  - {fileID: 2100000, guid: 01335d8bf61be154484532c42314a79c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: -10
   direction: {fileID: 7824046347572210692}
+  isMoving: 1
 --- !u!114 &7118675356006277396
 MonoBehaviour:
   m_ObjectHideFlags: 0

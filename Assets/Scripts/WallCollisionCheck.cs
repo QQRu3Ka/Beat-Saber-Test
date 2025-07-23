@@ -6,6 +6,7 @@ using UnityEngine;
 public class WallCollisionCheck : MonoBehaviour
 {
     const string CamTag = "MainCamera";
+    private MoveCube MoveCube;
     private IBreak _cube;
     private ISlice _slice;
     public GameObject cam;
@@ -13,6 +14,7 @@ public class WallCollisionCheck : MonoBehaviour
 
     private void Awake()
     {
+        MoveCube = GetComponent<MoveCube>();
         _cube = GetComponent<BreakCube>();
         _slice = GetComponent<KeyboardSlice>();
         cam = GameObject.FindGameObjectWithTag(CamTag);
@@ -25,21 +27,23 @@ public class WallCollisionCheck : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Side s = Side.None;
-        Debug.Log(side.ToString());
         if (!other.CompareTag("Wall")) return;
         if (gameObject.CompareTag("RedCube"))
         {
             s = _slice.SliceRed();
+            //Debug.Log(s.ToString());
         }
         
         if (gameObject.CompareTag("BlueCube"))
         {
             s = _slice.SliceBlue();
         }
-        
+
+        if (s!=Side.None) MoveCube.isMoving = false;
+        _cube.Break(s);
+
         if (s == side)
         {
-            _cube.Break(side);
             cam.GetComponent<GameStats>().ChangePoint(1);
         }
         else cam.GetComponent<GameStats>().ChangePoint(-1);
