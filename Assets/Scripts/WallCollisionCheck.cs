@@ -24,33 +24,33 @@ public class WallCollisionCheck : MonoBehaviour
         if (transform.rotation.eulerAngles.z == 270) side = Side.Left;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!other.CompareTag("Wall")) return;
-        Side s = Side.None;
-        Debug.Log("Столкновение со стеной");
-        if (gameObject.CompareTag("RedCube"))
-        {
-            s = _slice.SliceRed();
-            
-        }
-        
-        if (gameObject.CompareTag("BlueCube"))
-        {
-            s = _slice.SliceBlue();
-        }
-
-        if (s != Side.None)
-        {
-            MoveCube.isMoving = false;
-            _cube.Break(s);
-        }
-        
-
-        if (s == side)
-        {
-            cam.GetComponent<GameStats>().ChangePoint(1);
-        }
-        else cam.GetComponent<GameStats>().ChangePoint(-1);
-    }
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     if (!other.CompareTag("Wall")) return;
+    //     Side s = Side.None;
+    //     Debug.Log("Столкновение со стеной");
+    //     if (gameObject.CompareTag("RedCube"))
+    //     {
+    //         s = _slice.SliceRed();
+    //         
+    //     }
+    //     
+    //     if (gameObject.CompareTag("BlueCube"))
+    //     {
+    //         s = _slice.SliceBlue();
+    //     }
+    //
+    //     if (s != Side.None)
+    //     {
+    //         MoveCube.isMoving = false;
+    //         _cube.Break(s);
+    //     }
+    //     
+    //
+    //     if (s == side)
+    //     {
+    //         cam.GetComponent<GameStats>().ChangePoint(1);
+    //     }
+    //     else cam.GetComponent<GameStats>().ChangePoint(-1);
+    // }
 }

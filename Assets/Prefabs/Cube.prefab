@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5306994596014404371}
+  leftPart: {fileID: 0}
+  rightPart: {fileID: 0}
 --- !u!114 &4176462747483351063
 MonoBehaviour:
   m_ObjectHideFlags: 0

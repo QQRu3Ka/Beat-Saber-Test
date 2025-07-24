@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798441168841453637}
   m_LocalRotation: {x: 0, y: 0, z: -0.08715578, w: 0.9961947}
-  m_LocalPosition: {x: -0.05, y: 0.3, z: -0.5}
+  m_LocalPosition: {x: -0.05, y: -0.3, z: -0.5}
   m_LocalScale: {x: 1, y: 0.05, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,7 +125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2581408846680572991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 0, z: 0}
+  m_LocalPosition: {x: -0.25, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4411785888831675998}
   m_LocalRotation: {x: -0.08715578, y: 0.9961947, z: -0, w: 0}
-  m_LocalPosition: {x: 0.05, y: 0.3, z: -0.5}
+  m_LocalPosition: {x: 0.05, y: -0.3, z: -0.5}
   m_LocalScale: {x: 1, y: 0.05, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -337,7 +337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4812875967063994726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: 0, z: 0}
+  m_LocalPosition: {x: 0.25, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -438,8 +438,8 @@ GameObject:
   - component: {fileID: 3970998298372182772}
   - component: {fileID: 6590454638818519561}
   - component: {fileID: 2670743582780143103}
-  - component: {fileID: 4470808014037889901}
-  - component: {fileID: 6966557526262211093}
+  - component: {fileID: 2579446389693232364}
+  - component: {fileID: 1053118609505943488}
   m_Layer: 0
   m_Name: NewCube
   m_TagString: RedCube
@@ -492,6 +492,8 @@ MonoBehaviour:
   moveSpeed: -10
   direction: {fileID: 5524872108707242398}
   isMoving: 1
+  leftPart: {fileID: 6606492245851787349}
+  rightPart: {fileID: 7740069277579062581}
 --- !u!114 &3970998298372182772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,10 +532,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772499481de28aa448f0ac869a1287de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 6966557526262211093}
   leftPart: {fileID: 6606492245851787349}
   rightPart: {fileID: 7740069277579062581}
---- !u!65 &4470808014037889901
+--- !u!65 &2579446389693232364
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -545,8 +546,8 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 1, y: 0, z: 0}
---- !u!54 &6966557526262211093
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1053118609505943488
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

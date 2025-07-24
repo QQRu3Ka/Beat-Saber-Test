@@ -5,13 +5,11 @@ using UnityEngine;
 
 public class BreakCube : MonoBehaviour, IBreak
 {
-    [SerializeField] private Rigidbody rb;
     [SerializeField] private Rigidbody leftPart;
     [SerializeField] private Rigidbody rightPart;
     private float _force = 500f;
     public void Break(Side side)
     {
-        rb.useGravity = true;
         leftPart.useGravity = true;
         rightPart.useGravity = true;
         if (side == Side.Left)

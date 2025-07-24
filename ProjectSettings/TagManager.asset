@@ -7,6 +7,9 @@ TagManager:
   - Wall
   - RedCube
   - BlueCube
+  - RedSword
+  - BlueSword
+  - Sword
   layers:
   - Default
   - TransparentFX
