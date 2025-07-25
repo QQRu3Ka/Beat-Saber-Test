@@ -25,4 +25,14 @@ public class GameStats : MonoBehaviour
     {
         Debug.Log("+ очко");
     }
+
+    public void RightCut()
+    {
+        
+    }
+
+    public void WrongCut()
+    {
+        
+    }
 }

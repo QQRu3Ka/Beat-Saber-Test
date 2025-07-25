@@ -315,11 +315,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2323aad38e8c154a9cc971db161c260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 8975239644247987555, guid: c6ca092e6a8d42c4fb8dc4700e0a8d8c, type: 3}
-  materials:
+  _cube: {fileID: 8975239644247987555, guid: c6ca092e6a8d42c4fb8dc4700e0a8d8c, type: 3}
+  _materials:
   - {fileID: 2100000, guid: 01335d8bf61be154484532c42314a79c, type: 2}
   - {fileID: 2100000, guid: 00c9f42498a9bf046b5cd00cc315f2a6, type: 2}
-  side: 0
+  _bpm: 60
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,8 +358,8 @@ GameObject:
   - component: {fileID: 1351953452}
   - component: {fileID: 1351953451}
   - component: {fileID: 1351953450}
-  - component: {fileID: 1351953449}
   - component: {fileID: 1351953448}
+  - component: {fileID: 1351953453}
   m_Layer: 0
   m_Name: RedSword
   m_TagString: RedSword
@@ -377,19 +377,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89584572dc556fd4aa855f0d21db31cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  side: 0
---- !u!114 &1351953449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351953447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 839a7ac90d14dd4488129d6c31b66098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1351953450
@@ -442,6 +429,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &1351953453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351953447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a7c9e52e48ba24f9107703bb086450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1511496385
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,8 +452,8 @@ GameObject:
   - component: {fileID: 1511496390}
   - component: {fileID: 1511496389}
   - component: {fileID: 1511496388}
-  - component: {fileID: 1511496387}
   - component: {fileID: 1511496386}
+  - component: {fileID: 1511496391}
   m_Layer: 0
   m_Name: BlueSword
   m_TagString: BlueSword
@@ -472,19 +471,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89584572dc556fd4aa855f0d21db31cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  side: 0
---- !u!114 &1511496387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511496385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 839a7ac90d14dd4488129d6c31b66098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1511496388
@@ -537,6 +523,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &1511496391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511496385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5427ea5cdc00044e81f126035ca1c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1898904516
 GameObject:
   m_ObjectHideFlags: 0

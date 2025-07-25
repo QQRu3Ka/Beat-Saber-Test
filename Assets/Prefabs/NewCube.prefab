@@ -161,7 +161,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01335d8bf61be154484532c42314a79c, type: 2}
+  - {fileID: 2100000, guid: 00c9f42498a9bf046b5cd00cc315f2a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -373,7 +373,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01335d8bf61be154484532c42314a79c, type: 2}
+  - {fileID: 2100000, guid: 00c9f42498a9bf046b5cd00cc315f2a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -435,14 +435,12 @@ GameObject:
   - component: {fileID: 5524872108707242398}
   - component: {fileID: 287085808634923764}
   - component: {fileID: 6786926793327716616}
-  - component: {fileID: 3970998298372182772}
-  - component: {fileID: 6590454638818519561}
   - component: {fileID: 2670743582780143103}
   - component: {fileID: 2579446389693232364}
   - component: {fileID: 1053118609505943488}
   m_Layer: 0
   m_Name: NewCube
-  m_TagString: RedCube
+  m_TagString: BlueCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -489,37 +487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8fe444022735ce4e862080f5448c25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: -10
-  direction: {fileID: 5524872108707242398}
-  isMoving: 1
-  leftPart: {fileID: 6606492245851787349}
-  rightPart: {fileID: 7740069277579062581}
---- !u!114 &3970998298372182772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8975239644247987555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f31ed32fc326948bc1a2fc20ea8ea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  side: 0
---- !u!114 &6590454638818519561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8975239644247987555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 839a7ac90d14dd4488129d6c31b66098, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _moveSpeed: -10
+  _direction: {fileID: 5524872108707242398}
+  _side: 0
 --- !u!114 &2670743582780143103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,8 +502,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772499481de28aa448f0ac869a1287de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPart: {fileID: 6606492245851787349}
-  rightPart: {fileID: 7740069277579062581}
+  _leftPart: {fileID: 6606492245851787349}
+  _rightPart: {fileID: 7740069277579062581}
+  _force: 500
+  _cuts:
+  - _side: 1
+    _leftPartForce: {x: -1, y: 1, z: -0.5}
+    _rightPartForce: {x: -1, y: -1, z: -0.5}
+  - _side: 3
+    _leftPartForce: {x: 1, y: 1, z: -0.5}
+    _rightPartForce: {x: 1, y: -1, z: -0.5}
+  - _side: 0
+    _leftPartForce: {x: -0.5, y: 1.5, z: -0.5}
+    _rightPartForce: {x: 0.5, y: 1.5, z: -0.5}
+  - _side: 2
+    _leftPartForce: {x: 0.5, y: -1.5, z: -0.5}
+    _rightPartForce: {x: -0.5, y: -1.5, z: -0.5}
 --- !u!65 &2579446389693232364
 BoxCollider:
   m_ObjectHideFlags: 0

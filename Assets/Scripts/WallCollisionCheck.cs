@@ -8,7 +8,6 @@ public class WallCollisionCheck : MonoBehaviour
     const string CamTag = "MainCamera";
     private MoveCube MoveCube;
     private IBreak _cube;
-    private ISlice _slice;
     public GameObject cam;
     public Side side;
 
@@ -16,7 +15,6 @@ public class WallCollisionCheck : MonoBehaviour
     {
         MoveCube = GetComponent<MoveCube>();
         _cube = GetComponent<BreakCube>();
-        _slice = GetComponent<KeyboardSlice>();
         cam = GameObject.FindGameObjectWithTag(CamTag);
         if (transform.rotation.eulerAngles.z == 0) side = Side.Up;
         if (transform.rotation.eulerAngles.z == 90) side = Side.Right;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyboardSlice : MonoBehaviour, ISlice
+public class KeyboardSlice : MonoBehaviour
 {
     public Side SliceRed()
     {

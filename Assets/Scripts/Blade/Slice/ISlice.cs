@@ -4,6 +4,5 @@ using UnityEngine;
 
 public interface ISlice
 {
-    Side SliceRed();
-    Side SliceBlue();
+    Side Slice();
 }
