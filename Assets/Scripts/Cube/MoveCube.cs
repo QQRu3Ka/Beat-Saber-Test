@@ -46,10 +46,9 @@ public class MoveCube : MonoBehaviour
         if (hitSide == _side && (transform.gameObject.CompareTag("RedCube") && other.transform.parent.gameObject.CompareTag("RedSword") ||
             transform.gameObject.CompareTag("BlueCube") && other.transform.parent.gameObject.CompareTag("BlueSword")))
         {
-            //Изменить ChangePoint на RightCut, WrongCut
-            _cam.GetComponent<GameStats>().ChangePoint(1);
+            _cam.GetComponent<GameStats>().RightCut();
         }
-        else _cam.GetComponent<GameStats>().ChangePoint(-1);
+        else _cam.GetComponent<GameStats>().WrongCut();
         _isHitted = true;
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SetupCube : MonoBehaviour
 {
-    private void Setup()
+    private void Setup(GameObject cube)
     {
         
     }

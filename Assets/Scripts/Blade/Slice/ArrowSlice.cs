@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,5 +24,10 @@ public class ArrowSlice : MonoBehaviour, ISlice
             return Side.Right;
         }
         return Side.None;
+    }
+
+    [Serializable]
+    private class SliceData
+    {
     }
 }

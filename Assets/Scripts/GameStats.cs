@@ -6,20 +6,6 @@ using UnityEngine;
 public class GameStats : MonoBehaviour
 {
     [SerializeField] private int _score = 0;
-    
-    public delegate void SliceHandler();
-    public event SliceHandler OnSlice;
-
-    private void Awake()
-    {
-        OnSlice += PrintScore;
-    }
-
-    public void ChangePoint(int num)
-    {
-        _score+=num;
-        OnSlice?.Invoke();
-    }
 
     public void PrintScore()
     {
@@ -28,11 +14,13 @@ public class GameStats : MonoBehaviour
 
     public void RightCut()
     {
-        
+        _score += 1;
+        Debug.Log("Попал");
     }
 
     public void WrongCut()
     {
-        
+        _score -= 1;
+        Debug.Log("Не попал");
     }
 }

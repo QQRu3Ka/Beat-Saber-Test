@@ -5,22 +5,6 @@ using UnityEngine;
 
 public class WASDSlice : MonoBehaviour, ISlice
 {
-
-    public Action call;
-
-
-    public event Action OnCall;
-
-    private void Start()
-    {
-        call = Call;
-    }
-
-
-    private void Call()
-    {
-        
-    }
     public Side Slice()
     {
         if (Input.GetKey(KeyCode.W))
