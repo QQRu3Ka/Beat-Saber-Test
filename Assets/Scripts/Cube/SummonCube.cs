@@ -9,15 +9,11 @@ public class SummonCube : MonoBehaviour
 {
     [SerializeField] private GameObject _cube;
     [SerializeField] private int _bpm;
-    private SetupCube _setupCube; 
-    private MeshRenderer _meshRendererLeft;
-    private MeshRenderer _meshRendererRight;
     
     private List<int> _sides;
 
     private void Awake()
     {
-        _setupCube = GetComponent<SetupCube>();
         _sides = new List<int>() {-1, 1};
     }
     
@@ -38,12 +34,6 @@ public class SummonCube : MonoBehaviour
     private void Summon()
     {
         var position = new Vector3(_sides[Random.Range(0, _sides.Count)], 0, 20);
-        var newCube = Instantiate(_cube, position, Quaternion.identity);
-        _setupCube.Setup(newCube);
-        
-        //Не менять префаб, менять копию
-        //Создать скрипт с настройкой куба: вид куба, цвет куба
-        
-        
+        var cube = Instantiate(_cube, position, Quaternion.identity);
     }
 }

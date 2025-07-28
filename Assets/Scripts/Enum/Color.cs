@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Blade
+public enum Color
 {
-    RED_BLADE,
-    BLUE_BLADE
+    RED,
+    BLUE
 }

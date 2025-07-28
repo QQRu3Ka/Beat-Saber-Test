@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwordHit : MonoBehaviour
+public class BladeHit : MonoBehaviour
 {
     private string _animatorVar = "slicing";
     private Animator _animator;
     private ISlice _slice;
 
-    public Side Side { get; set; }
+    public Side Side { get; private set; }
 
     private void Start()
     {

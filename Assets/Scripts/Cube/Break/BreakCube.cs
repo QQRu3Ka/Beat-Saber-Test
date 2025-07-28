@@ -31,26 +31,13 @@ public class BreakCube : MonoBehaviour, IBreak
     [Serializable]
     private class SideCutData
     {
-        [SerializeField] private Side _side;
-        [SerializeField] private Vector3 _leftPartForce;
-        [SerializeField] private Vector3 _rightPartForce;
-
-        public Side Side
-        {
-            get => _side;
-            set => _side = value;
-        }
-
-        public Vector3 LeftPartForce
-        {
-            get => _leftPartForce;
-            set => _leftPartForce = value;
-        }
-
-        public Vector3 RightPartForce
-        {
-            get => _rightPartForce;
-            set => _rightPartForce = value;
-        }
+        [field:SerializeField] public Side Side { get; set; }
+        [field:SerializeField] public Vector3 LeftPartForce {get; set;}
+        [field:SerializeField] public Vector3 RightPartForce {get; set;}
     }
+    
+    //Left  - -1      1 -0.5 |   -1   -1 -0.5
+    //Right -  1      1 -0.5 |    1   -1 -0.5
+    //Up    - -0.5  1.5 -0.5 |  0.5  1.5 -0.5
+    //Down  -  0.5 -1.5 -0.5 | -0.5 -1.5 -0.5
 }
