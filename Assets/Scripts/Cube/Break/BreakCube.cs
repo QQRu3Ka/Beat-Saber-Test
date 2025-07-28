@@ -11,7 +11,6 @@ public class BreakCube : MonoBehaviour, IBreak
     [SerializeField] private float _force = 500f;
     [SerializeField] private List<SideCutData> _cuts;
     private Dictionary<Side, List<Vector3>> _dict;
-    //Создать List<SideCutData>, потом в Awake сделать из List -> Dictionary
 
     private void Awake()
     {
@@ -27,25 +26,6 @@ public class BreakCube : MonoBehaviour, IBreak
         _rightPart.useGravity = true;
         _leftPart.AddForce(_dict[side][0] * _force);
         _rightPart.AddForce(_dict[side][1] * _force);
-        // switch (side)
-        // {
-        //     case Side.Left:
-        //         _leftPart.AddForce(new Vector3(-1, 1, -0.5f) *  _force);
-        //         _rightPart.AddForce(new Vector3(-1, -1, -0.5f) *  _force);
-        //         break;
-        //     case Side.Right:
-        //         _leftPart.AddForce(new Vector3(1, 1, -0.5f) *  _force);
-        //         _rightPart.AddForce(new Vector3(1, -1, -0.5f) *  _force);
-        //         break;
-        //     case Side.Up:
-        //         _leftPart.AddForce(new Vector3(-0.5f, 1.5f, -0.5f) *  _force);
-        //         _rightPart.AddForce(new Vector3(0.5f, 1.5f, -0.5f) *  _force);
-        //         break;
-        //     case Side.Down:
-        //         _leftPart.AddForce(new Vector3(0.5f, -1.5f, -0.5f) *  _force);
-        //         _rightPart.AddForce(new Vector3(-0.5f, -1.5f, -0.5f) *  _force);
-        //         break;
-        // }
     }
     
     [Serializable]

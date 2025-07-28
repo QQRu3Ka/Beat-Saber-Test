@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SetupCube : MonoBehaviour
 {
-    private void Setup(GameObject cube)
+    [SerializeField] private GameObject _leftPart;
+    [SerializeField] private GameObject _rightPart;
+    [SerializeField] private List<Material> _materials;
+    public void Setup(GameObject cube)
     {
-        
     }
 }
