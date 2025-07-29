@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IBreak
 {
-    void Break(Side side);
+    void Break(Side side, Vector3 normal);
 }

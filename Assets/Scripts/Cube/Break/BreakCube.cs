@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class BreakCube : MonoBehaviour, IBreak
+public class BreakCube : MonoBehaviour
 {
     [SerializeField] private Rigidbody _leftPart;
     [SerializeField] private Rigidbody _rightPart;

@@ -5,5 +5,6 @@ using UnityEngine;
 public enum Color
 {
     RED,
-    BLUE
+    BLUE,
+    NONE
 }

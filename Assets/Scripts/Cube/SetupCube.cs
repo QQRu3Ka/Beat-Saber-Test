@@ -6,10 +6,11 @@ using Random = UnityEngine.Random;
 
 public class SetupCube : MonoBehaviour
 {
-    [SerializeField] private List<Material> _materials;
+    [SerializeField] private List<ColorData> _colors;
     [SerializeField] private List<RotationData> _rotations;
     private ColorTag _color;
     private Dictionary<float, Side> _sides;
+    private Dictionary<Color, Material> _materials;
 
     public Dictionary<float, Side> Sides
     {
@@ -17,25 +18,49 @@ public class SetupCube : MonoBehaviour
         set => _sides = value;
     }
 
+    public Dictionary<Color, Material> Materials
+    {
+        get => _materials;
+        set => _materials = value;
+    }
+
     private void Awake()
     {
         _sides = new Dictionary<float, Side>();
+        _materials = new Dictionary<Color, Material>();
         foreach (var rotationData in _rotations)
         {
             _sides[rotationData.Rotation] = rotationData.Side;
         }
+
+        foreach (var colorData in _colors)
+        {
+            _materials[colorData.Color] = colorData.Material;
+        }
         _color = transform.gameObject.GetComponent<ColorTag>();
     }
+    
+    // private void Start()
+    // {
+    //     transform.Rotate(0, 0, Random.Range(0, 4)*90);
+    //     var materialRng = Random.Range(0, _materials.Count);
+    //     _color.Color = (Color)materialRng;
+    //     foreach (Transform part in transform)
+    //     {
+    //         part.gameObject.GetComponent<MeshRenderer>().material = _materials[materialRng];
+    //     }
+    // }
 
-    private void Start()
+    public void SetColor(string color)
     {
-        transform.Rotate(0, 0, Random.Range(0, 4)*90);
-        var materialRng = Random.Range(0, _materials.Count);
-        _color.Color = (Color)materialRng;
-        foreach (Transform part in transform)
-        {
-            part.gameObject.GetComponent<MeshRenderer>().material = _materials[materialRng];
-        }
+        Enum.TryParse(color, out Color col);
+        gameObject.GetComponent<MeshRenderer>().material = _materials[col];
+    }
+
+    public void SetRotation(string rotation)
+    {
+        Enum.TryParse(rotation, out Side side);
+        transform.Rotate(0,0,(int)side*90);
     }
 
     [Serializable]
@@ -43,5 +68,12 @@ public class SetupCube : MonoBehaviour
     {
         [field:SerializeField] public float Rotation { get; set; }
         [field:SerializeField] public Side Side { get; set; }
+    }
+
+    [Serializable]
+    private class ColorData
+    {
+        [field: SerializeField] public Color Color { get; set; }
+        [field: SerializeField] public Material Material { get; set; }
     }
 }

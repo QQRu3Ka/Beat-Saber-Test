@@ -41,7 +41,9 @@ public class MoveCube : MonoBehaviour
         if (!other.transform.gameObject.TryGetComponent(out BladeHit sh) || _isSliced) return;
         _isMoving = false;
         var hitSide = sh.Side;
-        _breakCube.Break(hitSide);
+        var point = other.ClosestPoint(_direction.position);
+        var collisionNormal = _direction.position - point;
+        _breakCube.Break(hitSide, collisionNormal);
         if (hitSide == _side && transform.gameObject.GetComponent<ColorTag>().Color == other.gameObject.GetComponent<ColorTag>().Color)
         {
             _cam.GetComponent<GameStats>().RightCut();
