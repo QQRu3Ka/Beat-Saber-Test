@@ -13,8 +13,355 @@ MonoBehaviour:
   m_Name: Spawner
   m_EditorClassIdentifier: 
   <Lines>k__BackingField:
-  - RED_Up BLUE_Up
+  - BLUE_Up_2_1
+  - RED_Up_1_1 BLUE_Down_2_1
+  - RED_Down_1_1
   - 
-  - RED_Up _
+  - RED_Up_1_1 BLUE_Up_2_1
+  - RED_Down_1_1
   - 
-  - RED_Up _
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - BLUE_Up_2_1
+  - BLUE_Down_2_1
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - 
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - RED_Any_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Any_2_1
+  - RED_Any_1_1 BLUE_Left_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Any_1_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Any_1_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Left_2_1

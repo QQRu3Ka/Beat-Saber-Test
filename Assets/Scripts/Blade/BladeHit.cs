@@ -22,19 +22,19 @@ public class BladeHit : MonoBehaviour
         if (s == Side.None) return;
         Side = s;
         StartCoroutine(ResetSide());
-        _animator.SetInteger(_animatorVar, (int)s + 1);
+        _animator.SetInteger(_animatorVar, (int)s+1);
         StartCoroutine(Slice());
     }
 
     private IEnumerator Slice()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         _animator.SetInteger(_animatorVar, 0);
     }
 
     private IEnumerator ResetSide()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         Side = Side.Down;
     }
 }

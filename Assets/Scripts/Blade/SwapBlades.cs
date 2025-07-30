@@ -11,8 +11,9 @@ public class SwapBlades : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            redSword.position = new Vector3(-redSword.position.x, redSword.position.y, redSword.position.z);
-            blueSword.position = new Vector3(-blueSword.position.x, blueSword.position.y, blueSword.position.z);
+            var tmp = redSword.position.x;
+            redSword.position = new Vector3(blueSword.position.x, redSword.position.y, redSword.position.z);
+            blueSword.position = new Vector3(tmp, blueSword.position.y, blueSword.position.z);
         }
     }
 }

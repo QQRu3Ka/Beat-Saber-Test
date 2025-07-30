@@ -7,11 +7,6 @@ public class GameStats : MonoBehaviour
 {
     [SerializeField] private int _score = 0;
 
-    public void PrintScore()
-    {
-        Debug.Log("+ очко");
-    }
-
     public void RightCut()
     {
         _score += 1;

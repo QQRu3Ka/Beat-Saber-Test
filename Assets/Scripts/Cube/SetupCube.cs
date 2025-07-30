@@ -9,6 +9,7 @@ public class SetupCube : MonoBehaviour
     [SerializeField] private List<ColorData> _colors;
     [SerializeField] private List<RotationData> _rotations;
     private ColorTag _color;
+    private CubeStats _cubeStats;
     private Dictionary<float, Side> _sides;
     private Dictionary<Color, Material> _materials;
 
@@ -38,6 +39,7 @@ public class SetupCube : MonoBehaviour
             _materials[colorData.Color] = colorData.Material;
         }
         _color = transform.gameObject.GetComponent<ColorTag>();
+        _cubeStats = transform.gameObject.GetComponent<CubeStats>();
     }
     
     // private void Start()
@@ -55,12 +57,15 @@ public class SetupCube : MonoBehaviour
     {
         Enum.TryParse(color, out Color col);
         gameObject.GetComponent<MeshRenderer>().material = _materials[col];
+        _color.Color = col;
+        _cubeStats.Color = col;
     }
 
     public void SetRotation(string rotation)
     {
         Enum.TryParse(rotation, out Side side);
-        transform.Rotate(0,0,(int)side*90);
+        transform.Rotate(0,0,(int)side*45);
+        _cubeStats.Side = side;
     }
 
     [Serializable]
