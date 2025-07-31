@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5a12bcfc416f6459447aaa9c9c5193, type: 3}
+  m_Name: FOOL - Damage 1
+  m_EditorClassIdentifier: 
+  <Song>k__BackingField: {fileID: 8300000, guid: 822b5b5b1b47a3f488b3c5f3e4d5e635, type: 3}
+  <Delay>k__BackingField: 1.25
+  <Bpm>k__BackingField: 110
+  <Lines>k__BackingField:
+  - BLUE_Up_2_1
+  - RED_Up_1_1 BLUE_Down_2_1
+  - RED_Down_1_1
+  - 
+  - RED_Up_1_1 BLUE_Up_2_1
+  - RED_Down_1_1
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - BLUE_Up_2_1
+  - BLUE_Down_2_1
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - 
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - RED_Any_1_1 BLUE_Left_2_1
+  - RED_Right_1_1 BLUE_Any_2_1
+  - RED_Any_1_1 BLUE_Left_2_1
+  - 
+  - RED_Up_1_1
+  - 
+  - BLUE_Down_2_1
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - RED_Down_1_1 BLUE_Down_2_1
+  - 
+  - RED_Right_1_1 BLUE_Left_2_1
+  - 
+  - RED_Up_1_1 BLUE_Up_2_1
+  - 
+  - 
+  - 
+  - 
+  - BLUE_Up_1_1 RED_Up_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - 
+  - RED_Left_1_1
+  - RED_Right_2_1
+  - RED_Left_1_1
+  - RED_Right_2_1
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_1_1
+  - BLUE_Right_2_1
+  - BLUE_Left_1_1
+  - 
+  - 
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - 
+  - RED_Left_1_1
+  - 
+  - RED_Right_1_1
+  - 
+  - RED_Left_1_1
+  - 
+  - BLUE_Right_1_1
+  - 
+  - BLUE_Left_1_1
+  - 
+  - BLUE_Right_1_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - 
+  - BLUE_Left_2_1
+  - 
+  - BLUE_Right_2_1
+  - 
+  - RED_Left_2_1
+  - 
+  - RED_Right_2_1
+  - 
+  - RED_Left_2_1
+  - 
+  - 
+  - 
+  - RED_Any_1_1
+  - 
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

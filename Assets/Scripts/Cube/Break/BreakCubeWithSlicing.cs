@@ -8,24 +8,42 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
 {
     [SerializeField] private float _force = 500f;
     [SerializeField] private List<SideCutData> _cuts;
+    [SerializeField] private List<SideVectorData> _sides;
     private Dictionary<Side, List<Vector3>> _dict;
+    private Dictionary<Side, Vector3> _cutsDict;
+    private CubeStats _cubeStats;
     
     private void Awake()
     {
+        _cubeStats = gameObject.GetComponent<CubeStats>();
         _dict = new Dictionary<Side, List<Vector3>>();
         foreach (var i in _cuts)
         {
             _dict[i.Side] = new List<Vector3>(){i.LeftPartForce, i.RightPartForce};
         }
-    }
-    public void Break(Side side, Vector3 normal)
-    {
-        var hull = side switch
+        _cutsDict = new Dictionary<Side, Vector3>();
+        foreach (var i in _sides)
         {
-            Side.Left or Side.Right => gameObject.Slice(gameObject.transform.position, normal + Vector3.up),
-            Side.Up or Side.Down => gameObject.Slice(gameObject.transform.position, normal + Vector3.left),
-            _ => null
-        };
+            _cutsDict[i.Side] = i.Vector;
+        }
+    }
+    public void Break(Side side, Vector3 point, GameObject sword)
+    {
+        if ((side == _cubeStats.Side || _cubeStats.Side == Side.Any) && 
+            transform.gameObject.GetComponent<ColorTag>().Color == sword.GetComponent<ColorTag>().Color)
+        {
+            if (side is Side.Left or Side.Right)
+            {
+                GameManager.Instance.RightCut((int)((0.5-Math.Abs(point.y - transform.position.y)) * 30));
+            }
+            else
+            {
+                GameManager.Instance.RightCut((int)((0.5-Math.Abs(point.x - transform.position.x)) * 30));
+            }
+        }
+        else GameManager.Instance.WrongCut();
+        
+        var hull = gameObject.Slice(gameObject.transform.position, transform.position - point + _cutsDict[side]);
 
         if (hull == null) return;
         var upperHull = hull.CreateUpperHull(gameObject, gameObject.GetComponent<MeshRenderer>().material);
@@ -59,6 +77,13 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
         [field:SerializeField] public Side Side { get; set; }
         [field:SerializeField] public Vector3 LeftPartForce {get; set;}
         [field:SerializeField] public Vector3 RightPartForce {get; set;}
+    }
+
+    [Serializable]
+    private class SideVectorData
+    {
+        [field: SerializeField] public Side Side { get; set; }
+        [field: SerializeField] public Vector3 Vector { get; set; }
     }
     
     //Left  - -1      1 -0.5 |   -1   -1 -0.5

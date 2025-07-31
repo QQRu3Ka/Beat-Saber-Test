@@ -13,9 +13,9 @@ public class GameManager : MonoBehaviour
         _gameStats = GetComponent<GameStats>();
     }
 
-    public void RightCut()
+    public void RightCut(int points)
     {
-        _gameStats.RightCut();
+        _gameStats.RightCut(points);
     }
 
     public void WrongCut()

@@ -13,13 +13,11 @@ public class MoveCube : MonoBehaviour
     private bool _isMoving = true;
     private bool _isSliced;
     private IBreak _breakCube;
-    private CubeStats _cubeStats;
 
     private void Awake()
     {
         _breakCube = GetComponent<IBreak>();
         _setup = GetComponent<SetupCube>();
-        _cubeStats = GetComponent<CubeStats>();
     }
 
     private void Update()
@@ -36,14 +34,7 @@ public class MoveCube : MonoBehaviour
         _isMoving = false;
         var hitSide = sh.Side;
         var point = other.ClosestPoint(_direction.position);
-        var collisionNormal = _direction.position - point;
-        _breakCube.Break(hitSide, collisionNormal);
-        // if ((hitSide == _cubeStats.Side || _cubeStats.Side == Side.Any) && 
-        //     transform.gameObject.GetComponent<ColorTag>().Color == other.gameObject.GetComponent<ColorTag>().Color)
-        // {
-        //     GameManager.Instance.RightCut();
-        // }
-        // else GameManager.Instance.WrongCut();
+        _breakCube.Break(hitSide, point, other.gameObject);
         _isSliced = true;
     }
 }

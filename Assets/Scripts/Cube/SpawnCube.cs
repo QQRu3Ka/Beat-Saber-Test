@@ -10,19 +10,14 @@ using Rng = System.Random;
 public class SpawnCube : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _cubes;
-    [SerializeField] private int _bpm;
     [SerializeField] private SpawnerManager _spawnerManager;
     [SerializeField] private AudioSource _audioSource;
-    private float _time;
-    
+
+    public SpawnerManager SpawnerManager => _spawnerManager;
+
     private void Start()
     {
         StartCoroutine(StartSong());
-    }
-
-    private void Update()
-    {
-        _time += Time.deltaTime;
     }
 
     private IEnumerator StartSong()
@@ -31,7 +26,7 @@ public class SpawnCube : MonoBehaviour
 
         var startDspTime = AudioSettings.dspTime;
 
-        var beatDuration = 60.0 / _bpm;
+        var beatDuration = 60.0 / _spawnerManager.Bpm;
 
         for (var i = 0; i < _spawnerManager.Lines.Count; i++)
         {
@@ -42,7 +37,6 @@ public class SpawnCube : MonoBehaviour
                 yield return new WaitForSeconds((float)timeUntilNext);
 
             Summon(_spawnerManager.Lines[i]);
-            print(_time);
         }
     }
 
@@ -54,16 +48,8 @@ public class SpawnCube : MonoBehaviour
         foreach (var cubeInfo in cubes)
         {
             var attribs = cubeInfo.Split('_');
-            GameObject cube;
-            var position = new Vector3(Int32.Parse(attribs[2])*2, Int32.Parse(attribs[3]), 20);
-            if (attribs[1] == "Any")
-            {
-                cube = Instantiate(_cubes[1], position, Quaternion.identity);
-            }
-            else
-            {
-                cube = Instantiate(_cubes[0], position, Quaternion.identity);
-            } 
+            var position = new Vector3(int.Parse(attribs[2])*2, int.Parse(attribs[3]), 20);
+            var cube = Instantiate(attribs[1] == "Any" ? _cubes[1] : _cubes[0], position, Quaternion.identity);
             var setup = cube.GetComponent<SetupCube>();
             setup.SetColor(attribs[0]);
             setup.SetRotation(attribs[1]);

@@ -7,15 +7,14 @@ public class GameStats : MonoBehaviour
 {
     [SerializeField] private int _score = 0;
 
-    public void RightCut()
+    public void RightCut(int points)
     {
-        _score += 1;
+        _score += points;
         Debug.Log("Попал");
     }
 
     public void WrongCut()
     {
-        _score -= 1;
         Debug.Log("Не попал");
     }
 }

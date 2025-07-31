@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class SwapBlades : MonoBehaviour
 {
-    [SerializeField] private Transform redSword;
-    [SerializeField] private Transform blueSword;
+    [SerializeField] private Transform _redSword;
+    [SerializeField] private Transform _blueSword;
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            var tmp = redSword.position.x;
-            redSword.position = new Vector3(blueSword.position.x, redSword.position.y, redSword.position.z);
-            blueSword.position = new Vector3(tmp, blueSword.position.y, blueSword.position.z);
-        }
+        if (!Input.GetKeyDown(KeyCode.Space)) return;
+        var tmp = _redSword.position.x;
+        _redSword.position = new Vector3(_blueSword.position.x, _redSword.position.y, _redSword.position.z);
+        _blueSword.position = new Vector3(tmp, _blueSword.position.y, _blueSword.position.z);
     }
 }

@@ -12,18 +12,7 @@ public class SetupCube : MonoBehaviour
     private CubeStats _cubeStats;
     private Dictionary<float, Side> _sides;
     private Dictionary<Color, Material> _materials;
-
-    public Dictionary<float, Side> Sides
-    {
-        get => _sides;
-        set => _sides = value;
-    }
-
-    public Dictionary<Color, Material> Materials
-    {
-        get => _materials;
-        set => _materials = value;
-    }
+    private MeshRenderer _meshRenderer;
 
     private void Awake()
     {
@@ -40,23 +29,13 @@ public class SetupCube : MonoBehaviour
         }
         _color = transform.gameObject.GetComponent<ColorTag>();
         _cubeStats = transform.gameObject.GetComponent<CubeStats>();
+        _meshRenderer = gameObject.GetComponent<MeshRenderer>();
     }
-    
-    // private void Start()
-    // {
-    //     transform.Rotate(0, 0, Random.Range(0, 4)*90);
-    //     var materialRng = Random.Range(0, _materials.Count);
-    //     _color.Color = (Color)materialRng;
-    //     foreach (Transform part in transform)
-    //     {
-    //         part.gameObject.GetComponent<MeshRenderer>().material = _materials[materialRng];
-    //     }
-    // }
 
     public void SetColor(string color)
     {
         Enum.TryParse(color, out Color col);
-        gameObject.GetComponent<MeshRenderer>().material = _materials[col];
+        _meshRenderer.material = _materials[col];
         _color.Color = col;
         _cubeStats.Color = col;
     }
