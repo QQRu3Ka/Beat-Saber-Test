@@ -11,6 +11,7 @@ public class Slicer : MonoBehaviour, ISlice
     private void Awake()
     {
         _keySideDict = new Dictionary<KeyCode, Side>();
+        
         foreach (var keyCodeSideData in _keyCodeSideData)
         {
             _keySideDict[keyCodeSideData.Key] = keyCodeSideData.Side;

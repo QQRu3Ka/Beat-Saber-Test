@@ -15,11 +15,11 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
     
     private void Awake()
     {
-        _cubeStats = gameObject.GetComponent<CubeStats>();
+        _cubeStats = GetComponent<CubeStats>();
         _dict = new Dictionary<Side, List<Vector3>>();
         foreach (var i in _cuts)
         {
-            _dict[i.Side] = new List<Vector3>(){i.LeftPartForce, i.RightPartForce};
+            _dict[i.Side] = new List<Vector3>{i.LeftPartForce, i.RightPartForce};
         }
         _cutsDict = new Dictionary<Side, Vector3>();
         foreach (var i in _sides)
@@ -28,6 +28,12 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
         }
     }
     public void Break(Side side, Vector3 point, GameObject sword)
+    {
+        CutCheck(side, point, sword);
+        BreakCube(side, point);
+    }
+
+    private void CutCheck(Side side, Vector3 point, GameObject sword)
     {
         if ((side == _cubeStats.Side || _cubeStats.Side == Side.Any) && 
             transform.gameObject.GetComponent<ColorTag>().Color == sword.GetComponent<ColorTag>().Color)
@@ -42,33 +48,31 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
             }
         }
         else GameManager.Instance.WrongCut();
-        
+    }
+
+    private void BreakCube(Side side, Vector3 point)
+    {
         var hull = gameObject.Slice(gameObject.transform.position, transform.position - point + _cutsDict[side]);
 
         if (hull == null) return;
         var upperHull = hull.CreateUpperHull(gameObject, gameObject.GetComponent<MeshRenderer>().material);
         var lowerHull = hull.CreateLowerHull(gameObject, gameObject.GetComponent<MeshRenderer>().material);
             
-        upperHull.AddComponent<MeshCollider>().convex = true;
-        lowerHull.AddComponent<MeshCollider>().convex = true;
-            
-        upperHull.AddComponent<Rigidbody>();
-        lowerHull.AddComponent<Rigidbody>();
+        AddComponents(upperHull);
+        AddComponents(lowerHull);
             
         upperHull.GetComponent<Rigidbody>().AddForce(_dict[side][0] * _force);
         lowerHull.GetComponent<Rigidbody>().AddForce(_dict[side][1] * _force);
         
-        gameObject.transform.position = new Vector3(0f, 1000f, 0f);
-        StartCoroutine(DeleteHulls(upperHull, lowerHull));
-        
+        Destroy(upperHull, 0.5f);
+        Destroy(lowerHull, 0.5f);
+        Destroy(gameObject);
     }
 
-    private IEnumerator DeleteHulls(GameObject upperHull, GameObject lowerHull)
+    private void AddComponents(GameObject hull)
     {
-        yield return new WaitForSeconds(0.5f);
-        Destroy(upperHull);
-        Destroy(lowerHull);
-        Destroy(gameObject);
+        hull.AddComponent<MeshCollider>().convex = true;
+        hull.AddComponent<Rigidbody>();
     }
     
     [Serializable]

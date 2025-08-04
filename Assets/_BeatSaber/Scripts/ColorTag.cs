@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ColorTag : MonoBehaviour
 {
-    [SerializeField] private Color _color;
+    [SerializeField] private GameColor _color;
 
-    public Color Color
+    public GameColor Color
     {
         get => _color;
         set => _color = value;

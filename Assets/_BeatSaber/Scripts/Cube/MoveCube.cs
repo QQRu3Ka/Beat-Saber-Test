@@ -6,13 +6,15 @@ using UnityEngine;
 
 public class MoveCube : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed;
+    
     [SerializeField] private Transform _direction;
 
     private SetupCube _setup;
     private bool _isMoving = true;
     private bool _isSliced;
     private IBreak _breakCube;
+
+    public float MoveSpeed { get; set; }
 
     private void Awake()
     {
@@ -24,7 +26,7 @@ public class MoveCube : MonoBehaviour
     {
         if (_isMoving)
         {
-            transform.Translate(_direction.forward * (_moveSpeed * Time.deltaTime));
+            transform.Translate(_direction.forward * (MoveSpeed * Time.deltaTime));
         }
     }
 

@@ -6,5 +6,5 @@ public class CubeStats : MonoBehaviour
 {
     [field:SerializeField] public Side Side { get; set; }
 
-    [field:SerializeField] public Color Color { get; set; }
+    [field:SerializeField] public GameColor Color { get; set; }
 }
