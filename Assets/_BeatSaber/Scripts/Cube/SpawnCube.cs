@@ -13,7 +13,7 @@ public class SpawnCube : MonoBehaviour
     [SerializeField] private SpawnerManager _spawnerManager;
     [SerializeField] private AudioSource _audioSource;
 
-    private double _latestCubeSpawn;
+    private float _latestCubeSpawn;
 
     public SpawnerManager SpawnerManager => _spawnerManager;
 
@@ -30,11 +30,12 @@ public class SpawnCube : MonoBehaviour
         {
             foreach (var cube in list.CubeData)
             {
-                var timeUntilNext = cube.DelayTime - _latestCubeSpawn;
-                _latestCubeSpawn = cube.DelayTime;
+                var timeInBeats = cube.TimeInBeats * 60f / _spawnerManager.Bpm;
+                var timeUntilNext = timeInBeats - _latestCubeSpawn;
+                _latestCubeSpawn = timeInBeats;
                 if (timeUntilNext > 0)
-                    yield return new WaitForSeconds((float)timeUntilNext);
-            
+                    yield return new WaitForSeconds(timeUntilNext);
+        
                 Summon(cube);
             }
         }

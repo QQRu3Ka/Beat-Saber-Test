@@ -27,7 +27,7 @@ public class SpawnerManager : ScriptableObject
         [field: SerializeField] public GameColor Color { get; set; }
         [field: SerializeField] public Side Side { get; set; }
         [field: SerializeField] public Vector2 Position { get; set; }
-        [field: SerializeField] public float DelayTime { get; set; }
+        [field: SerializeField] public float TimeInBeats { get; set; }
     }
 }
 
