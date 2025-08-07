@@ -8,6 +8,7 @@ public class SetupCube : MonoBehaviour
 {
     [SerializeField] private List<ColorData> _colors;
     [SerializeField] private List<RotationData> _rotations;
+    [SerializeField] private GameObject _cubeObject;
     private ColorTag _color;
     private CubeStats _cubeStats;
     private MoveCube _moveCube;

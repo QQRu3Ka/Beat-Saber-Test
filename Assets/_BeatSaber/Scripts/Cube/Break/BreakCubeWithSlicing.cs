@@ -9,6 +9,8 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
     [SerializeField] private float _force = 500f;
     [SerializeField] private List<SideCutData> _cuts;
     [SerializeField] private List<SideVectorData> _sides;
+    [SerializeField] private GameObject[] _particles;
+    [SerializeField] private GameObject _cubeObject;
     private Dictionary<Side, List<Vector3>> _dict;
     private Dictionary<Side, Vector3> _cutsDict;
     private CubeStats _cubeStats;
@@ -29,6 +31,8 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
     }
     public void Break(Side side, Vector3 point, GameObject sword)
     {
+        var particle = Instantiate(_particles[_cubeStats.Color == GameColor.BLUE ? 0 : 1], transform.position, Quaternion.identity);
+        Destroy(particle, 1f);
         CutCheck(side, point, sword);
         BreakCube(side, point);
     }
@@ -52,11 +56,16 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
 
     private void BreakCube(Side side, Vector3 point)
     {
-        var hull = gameObject.Slice(gameObject.transform.position, transform.position - point + _cutsDict[side]);
-
-        if (hull == null) return;
-        var upperHull = hull.CreateUpperHull(gameObject, gameObject.GetComponent<MeshRenderer>().material);
-        var lowerHull = hull.CreateLowerHull(gameObject, gameObject.GetComponent<MeshRenderer>().material);
+        var hull = gameObject.Slice(gameObject.transform.position, gameObject.transform.position - point + _cutsDict[side]);
+        //var hull = _cubeObject.Slice(_cubeObject.transform.position, Vector3.left);
+        if (hull == null)
+        {
+            print(_cubeObject.transform.position);
+            print(point);
+            return;
+        }
+        var upperHull = hull.CreateUpperHull(gameObject, GetComponent<MeshRenderer>().material);
+        var lowerHull = hull.CreateLowerHull(gameObject, GetComponent<MeshRenderer>().material);
             
         AddComponents(upperHull);
         AddComponents(lowerHull);
@@ -71,8 +80,11 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
 
     private void AddComponents(GameObject hull)
     {
+        hull.transform.position = transform.position;
+        hull.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         hull.AddComponent<MeshCollider>().convex = true;
         hull.AddComponent<Rigidbody>();
+        hull.layer = LayerMask.NameToLayer("Debris");
     }
     
     [Serializable]

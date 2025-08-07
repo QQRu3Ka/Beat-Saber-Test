@@ -10,11 +10,11 @@ public class GameStats : MonoBehaviour
     public void RightCut(int points)
     {
         _score += points;
-        Debug.Log("Попал");
+        //Debug.Log("Попал");
     }
 
     public void WrongCut()
     {
-        Debug.Log("Не попал");
+        //Debug.Log("Не попал");
     }
 }
