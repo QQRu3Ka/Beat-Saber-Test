@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c5a12bcfc416f6459447aaa9c9c5193, type: 3}
   m_Name: Carpenter Brut - Turbo Killer
   m_EditorClassIdentifier: 
-  <Song>k__BackingField: {fileID: 8300000, guid: c80843f629c6e1a4f9ac6243ecdbfda5, type: 3}
+  <Song>k__BackingField: {fileID: 8300000, guid: 1e8b0b0532e470c47855b24c6078e5f2, type: 3}
   <Delay>k__BackingField: 2
   <Bpm>k__BackingField: 147
   <Speed>k__BackingField: 1
@@ -566,875 +566,875 @@ MonoBehaviour:
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 0
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 1.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 3
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 4.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 5.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 5.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 6.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 6.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 8
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 9.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 11
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 12.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 13.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 13.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 14.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 14.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 16
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 17.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 19
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 20.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 21.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 21.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 22.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 22.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 24
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 25.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 27
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 28.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 29.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 29.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 30.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 0
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 30.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 32.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 32.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 34
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 34
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 35.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 35.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 37
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 37
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 40.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 40.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 42
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 42
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 43.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 43.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 45
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 45
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 48.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 48.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 50
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 50
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 51.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 51.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 53
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 53
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 56.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 56.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 58
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 58
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 59.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 59.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 61
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 61
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 64.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 64.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 66
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 66
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 67.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 67.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 69
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 69
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 72.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 72.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 74
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 74
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 75.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 75.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 77
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 77
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 80.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 80.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 82
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 82
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 83.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 83.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 85
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 85
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 88.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 88.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 90
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 90
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 91.5
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 91.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 93
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 93
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 95.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 95.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 96.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 97.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 97.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 98.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 99.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 99.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 100.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 101.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 101.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 102.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 103.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 103.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 104.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 105.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 105.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 106.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 107.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 107.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 108.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 109.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 109.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 110.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 111.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 111.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 112.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 113.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 113.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 114.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 115.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 115.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 116.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 117.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 117.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 118.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 119.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 119.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 120.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 121.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 121.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 122.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 123.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 123.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 124.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 125.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 125.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 126.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 127.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 127.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 128.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 129.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 129.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 130.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 131.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 131.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 132.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 133.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 133.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 134.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 135.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 135.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 136.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 137.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 137.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 138.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 139.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 139.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 140.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 140.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 141.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 142.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 142.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 143.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 144.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 144.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 145.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 146.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 146.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 147.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 148.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 148.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 149.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 150.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 150.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 151.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 152.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 152.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 153.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 154.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 154.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 2
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 155.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 156.5
     - <Color>k__BackingField: 0
       <Side>k__BackingField: 4
-      <Position>k__BackingField: {x: 2, y: 1}
+      <Position>k__BackingField: {x: 2.5, y: 1}
       <TimeInBeats>k__BackingField: 156.5
   - <CubeData>k__BackingField:
     - <Color>k__BackingField: 1
       <Side>k__BackingField: 6
-      <Position>k__BackingField: {x: 4, y: 1}
+      <Position>k__BackingField: {x: 3.5, y: 1}
       <TimeInBeats>k__BackingField: 157.5

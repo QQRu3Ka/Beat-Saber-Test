@@ -101,4 +101,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LocalAssets/Epic Toon FX/Demo/Scenes/etfx_wind.unity
     guid: 565750a970c487a4280f95fd0ed4f9fc
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 336bd22a598d1e14ca39b34bb7220cac, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 85d8ec78acd6bd14182df65e89d90b02, type: 2}
