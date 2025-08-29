@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Spawner", menuName = "Cube/SpawnerManager", order = 1)]
 public class SpawnerManager : ScriptableObject
 {
+    [field: SerializeField] public string Name { get; set; }
     [field: SerializeField] public AudioClip Song { get; set; }
     
     [field: SerializeField] public double Delay { get; set; }

@@ -37,7 +37,7 @@ public class SetupCube : MonoBehaviour
 
     public void SetColor(GameColor color)
     {
-        _meshRenderer.material = _materials[color];
+        _meshRenderer.sharedMaterial = _materials[color];
         _color.Color = color;
         _cubeStats.Color = color;
     }

@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using EzySlice;
 using UnityEngine;
+using Plane = UnityEngine.Plane;
 
 public class BreakCubeWithSlicing : MonoBehaviour, IBreak
 {
+    
+
     [SerializeField] private float _force = 500f;
     [SerializeField] private List<SideCutData> _cuts;
     [SerializeField] private List<SideVectorData> _sides;
@@ -29,7 +32,7 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
             _cutsDict[i.Side] = i.Vector;
         }
     }
-    public void Break(Side side, Vector3 point, GameObject sword)
+    public void Break(Side side, Vector3 point, Vector3 normal, Plane plane, GameObject sword)
     {
         var particle = Instantiate(_particles[_cubeStats.Color == GameColor.BLUE ? 0 : 1], transform.position, Quaternion.identity);
         Destroy(particle, 1f);
@@ -57,7 +60,6 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
     private void BreakCube(Side side, Vector3 point)
     {
         var hull = gameObject.Slice(gameObject.transform.position, gameObject.transform.position - point + _cutsDict[side]);
-        //var hull = _cubeObject.Slice(_cubeObject.transform.position, Vector3.left);
         if (hull == null)
         {
             print(_cubeObject.transform.position);
@@ -86,7 +88,12 @@ public class BreakCubeWithSlicing : MonoBehaviour, IBreak
         hull.AddComponent<Rigidbody>();
         hull.layer = LayerMask.NameToLayer("Debris");
     }
-    
+
+    public void CheckSide(bool isRightSide, Vector3 pointOfHit, float preHitAngle, GameObject cube, GameObject sword)
+    {
+        
+    }
+
     [Serializable]
     private class SideCutData
     {

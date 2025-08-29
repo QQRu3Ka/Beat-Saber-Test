@@ -18,6 +18,7 @@ public class BladeHit : MonoBehaviour
     }
     private void Update()
     {
+        print("slice");
         var s = _slice.Slice();
         if (s == Side.None) return;
         Side = s;

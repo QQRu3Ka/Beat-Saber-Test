@@ -1,0 +1,2817 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5a12bcfc416f6459447aaa9c9c5193, type: 3}
+  m_Name: Carpenter Brut - Turbo Killer
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Turbo Killer
+  <Song>k__BackingField: {fileID: 8300000, guid: c80843f629c6e1a4f9ac6243ecdbfda5, type: 3}
+  <Delay>k__BackingField: 2
+  <Bpm>k__BackingField: 147
+  <Speed>k__BackingField: 0.5
+  <Lines>k__BackingField:
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Up_1_1 BLUE_Up_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Any_1_1 BLUE_Any_2_1
+  - RED_Any_1_1 BLUE_Any_2_1
+  - RED_Any_1_1 BLUE_Any_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - RED_Any_1_1
+  - 
+  - 
+  - 
+  - BLUE_Any_2_1
+  - 
+  - 
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - RED_Up_1_1
+  - 
+  - RED_Down_1_1
+  - 
+  - RED_Up_1_1
+  - 
+  - RED_Down_1_1
+  - 
+  - BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - 
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1 BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Right_1_1 BLUE_Left_2_1
+  - 
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - RED_Down_1_1 BLUE_Right_2_1
+  - RED_Left_1_1 BLUE_Down_2_1
+  - RED_Down_1_1 BLUE_Right_2_1
+  - RED_Left_1_1 BLUE_Down_2_1
+  - RED_Down_1_1 BLUE_Right_2_1
+  - RED_Left_1_1 BLUE_Down_2_1
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - 
+  - RED_Any_1_1
+  - 
+  - 
+  - 
+  - BLUE_Any_2_1
+  - 
+  - 
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - RED_Up_1_1
+  - 
+  - RED_Down_1_1
+  - 
+  - RED_Up_1_1
+  - 
+  - RED_Down_1_1
+  - 
+  - BLUE_Down_2_1
+  - BLUE_Right_2_1
+  - BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - 
+  - 
+  - 
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - RED_Any_2_1
+  - 
+  - BLUE_Any_1_1
+  - 
+  - RED_Any_2_1
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RED_Left_1_1 BLUE_Right_2_1
+  - 
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - BLUE_Left_2_1
+  - BLUE_Up_2_1
+  - BLUE_Right_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Up_1_1
+  - RED_Right_1_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Up_1_1 BLUE_Up_2_1
+  - RED_Down_1_1 BLUE_Down_2_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - RED_Left_1_1
+  - RED_Right_1_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - BLUE_Left_2_1
+  - BLUE_Right_2_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  <Cubes>k__BackingField:
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 6
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 0
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 2
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 1.5
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 6
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 3
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 2
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 4.5
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 4
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 5.5
+  - <Color>k__BackingField: 0
+    <Side>k__BackingField: 4
+    <Position>k__BackingField: {x: 2, y: 1}
+    <TimeInBeats>k__BackingField: 5.5
+  - <Color>k__BackingField: 1
+    <Side>k__BackingField: 0
+    <Position>k__BackingField: {x: 4, y: 1}
+    <TimeInBeats>k__BackingField: 6.5
+  - <Color>k__BackingField: 0
+    <Side>k__BackingField: 0
+    <Position>k__BackingField: {x: 2, y: 1}
+    <TimeInBeats>k__BackingField: 6.5
+  <ListCubes>k__BackingField:
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 0
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 1.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 3
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 4.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 6
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 6
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 7
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 7
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 8
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 9.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 11
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 12.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 14
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 14
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 15
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 15
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 16
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 17.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 19
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 20.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 22
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 22
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 23
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 23
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 24
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 25.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 27
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 28.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 30
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 30
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 31
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 31
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 32.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 32.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 34
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 34
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 35.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 35.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 37
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 37
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 40.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 40.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 42
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 42
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 43.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 43.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 45
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 45
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 48.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 48.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 50
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 50
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 51.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 51.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 53
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 53
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 56.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 56.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 58
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 58
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 59.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 59.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 61
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 61
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 64.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 64.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 66
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 66
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 67.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 67.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 69
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 69
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 72.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 72.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 74
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 74
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 75.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 75.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 77
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 77
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 80.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 80.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 82
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 82
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 83.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 83.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 85
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 85
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 88.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 88.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 90
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 90
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 91.5
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 91.5
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 93
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 93
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 96
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 96
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 97
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 98
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 98
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 99
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 100
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 100
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 101
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 102
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 102
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 103
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 104
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 104
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 105
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 106
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 106
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 107
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 108
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 108
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 109
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 110
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 110
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 111
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 112
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 112
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 113
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 114
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 114
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 115
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 116
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 116
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 117
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 118
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 118
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 119
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 120
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 120
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 121
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 122
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 122
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 123
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 124
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 124
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 125
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 126
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 126
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 127
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 128
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 128
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 129
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 130
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 130
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 131
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 132
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 132
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 133
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 134
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 134
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 135
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 136
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 136
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 137
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 138
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 138
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 139
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 140
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 140
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 141
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 142
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 142
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 143
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 144
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 144
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 145
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 146
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 146
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 147
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 148
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 148
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 149
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 150
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 150
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 151
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 152
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 152
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 153
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 154
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 154
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 155
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 156
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 156
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 157
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 158
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 158
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 160
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 161
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 162
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 163
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 165
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 165
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 167
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 167
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 172
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 173
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 174
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 175
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 176
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 179
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 181
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 183
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 185
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 187
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 188
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 189
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 190
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 196
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 197
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 198
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 199
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 200
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 204
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 205
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 206
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 207
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 208
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 211
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 211
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 213
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 213
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 215
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 215
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 217
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 217
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 219
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 219
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 221
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 221
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 224
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 224
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 225
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 225
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 226
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 226
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 227
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 227
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 228
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 228
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 229
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 229
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 230
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 230
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 231
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 231
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 232
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 232
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 233
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 233
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 234
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 234
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 235
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 235
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 236
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 236
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 237
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 237
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 238
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 238
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 239
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 239
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 240
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 240
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 241
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 241
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 242
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 242
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 243
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 243
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 244
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 244
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 245
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 245
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 246
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 246
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 247
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 247
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 248
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 248
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 249
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 249
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 250
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 250
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 251
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 251
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 252
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 252
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 253
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 253
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 254
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 254
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 255
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 255
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 257
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 258
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 259
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 260
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 261
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 262
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 263
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 264
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 265
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 270
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 271
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 272
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 273
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 274
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 275
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 276
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 277
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 278
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 280
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 280
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 281
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 281
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 282
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 282
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 283
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 283
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 284
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 284
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 285
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 285
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 288
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 289
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 290
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 291
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 293
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 293
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 295
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 295
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 300
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 301
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 302
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 303
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 304
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 307
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 309
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 311
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 313
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 315
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 316
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 317
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 318
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 324
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 325
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 326
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 5
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 327
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 1
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 328
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 332
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 333
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 334
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 335
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 2}
+      <TimeInBeats>k__BackingField: 336
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 339
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 339
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 341
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 341
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 343
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 343
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 345
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 345
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 347
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 347
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 349
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 7
+      <Position>k__BackingField: {x: 3, y: 2}
+      <TimeInBeats>k__BackingField: 349
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 2.5, y: 2}
+      <TimeInBeats>k__BackingField: 351
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 3
+      <Position>k__BackingField: {x: 3, y: 1.5}
+      <TimeInBeats>k__BackingField: 351
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 355
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 355
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 361
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 361
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 367
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 367
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 373
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 373
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 379
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 379
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 385
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 385
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 391
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 391
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 397
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 397
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 403
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 403
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 409
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 409
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 415
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 415
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 417
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 417
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 418
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 419
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 420
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 421
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 421
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 422
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 423
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 424
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 425
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 425
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 426
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 427
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 428
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 429
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 429
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 430
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 431
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 432
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 433
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 433
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 434
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 435
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 436
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 437
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 437
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 438
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 439
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 440
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 441
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 441
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 442
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 443
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 444
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 445
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 445
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 446
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 447
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 448
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 449
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 449
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 450
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 451
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 452
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 453
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 453
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 454
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 455
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 456
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 457
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 457
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 458
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 459
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 460
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 461
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 461
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 462
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 463
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 464
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 465
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 465
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 466
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 467
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 468
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 469
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 469
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 470
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 471
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 472
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 473
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 473
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 474
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 475
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 476
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 477
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 477
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 478
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 0
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 478
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 479
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 4
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 479
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 480
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 481
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 482
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 483
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 484
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 485
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 486
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 0
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 2.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 487
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 488
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 489
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 490
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 491
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 492
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 493
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 494
+  - <CubeData>k__BackingField:
+    - <Color>k__BackingField: 1
+      <Side>k__BackingField: 6
+      <Position>k__BackingField: {x: 3.5, y: 1.5}
+      <TimeInBeats>k__BackingField: 495
